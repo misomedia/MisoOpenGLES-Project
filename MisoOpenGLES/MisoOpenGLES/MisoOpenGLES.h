@@ -8,3 +8,6 @@
 
 //this will be imported in other imported headers in the future...
 #import <OpenGLESTypes/OpenGLESTypes.h>
+
+//this too will be imported in other imported headers in the future...
+#import <Generics/Generics.h>
