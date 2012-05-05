@@ -1,0 +1,3 @@
+[submodule "MisoOpenGLES/MisoOpenGLES/Frameworks/OpenGLESTypes"]
+	path = MisoOpenGLES/MisoOpenGLES/Frameworks/OpenGLESTypes
+	url = git@github.com:misomedia/OpenGLESTypes.git
