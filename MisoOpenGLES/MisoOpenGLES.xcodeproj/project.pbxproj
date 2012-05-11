@@ -13,6 +13,8 @@
 		045F86A81554B34500535395 /* MisoOpenGLES.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F86A61554B34500535395 /* MisoOpenGLES.m */; };
 		046535EA155D989B00960762 /* MisoOpenGLESObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 046535E8155D989B00960762 /* MisoOpenGLESObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046535EB155D989B00960762 /* MisoOpenGLESObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535E9155D989B00960762 /* MisoOpenGLESObject.m */; };
+		04CCE7A5155DC4CD00D61942 /* Generics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CCE73E155DC4CD00D61942 /* Generics.framework */; };
+		04CCE7A8155DC4CD00D61942 /* OpenGLESTypes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		045F86A61554B34500535395 /* MisoOpenGLES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisoOpenGLES.m; sourceTree = "<group>"; };
 		046535E8155D989B00960762 /* MisoOpenGLESObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisoOpenGLESObject.h; sourceTree = "<group>"; };
 		046535E9155D989B00960762 /* MisoOpenGLESObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisoOpenGLESObject.m; sourceTree = "<group>"; };
+		04CCE73E155DC4CD00D61942 /* Generics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Generics.framework; sourceTree = "<group>"; };
+		04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLESTypes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				045F86981554B33900535395 /* Foundation.framework in Frameworks */,
+				04CCE7A5155DC4CD00D61942 /* Generics.framework in Frameworks */,
+				04CCE7A8155DC4CD00D61942 /* OpenGLESTypes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +73,7 @@
 		045F86991554B33900535395 /* MisoOpenGLES */ = {
 			isa = PBXGroup;
 			children = (
+				04CCE6D7155DC4CD00D61942 /* Static Frameworks */,
 				045F869A1554B33900535395 /* Supporting Files */,
 				045F86A51554B34500535395 /* MisoOpenGLES.h */,
 				045F86A61554B34500535395 /* MisoOpenGLES.m */,
@@ -84,6 +91,32 @@
 				045F869F1554B33900535395 /* MisoOpenGLES-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CCE6D7155DC4CD00D61942 /* Static Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CCE6D8155DC4CD00D61942 /* Generics */,
+				04CCE740155DC4CD00D61942 /* OpenGLESTypes */,
+			);
+			name = "Static Frameworks";
+			path = "../../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks";
+			sourceTree = "<group>";
+		};
+		04CCE6D8155DC4CD00D61942 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				04CCE73E155DC4CD00D61942 /* Generics.framework */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		04CCE740155DC4CD00D61942 /* OpenGLESTypes */ = {
+			isa = PBXGroup;
+			children = (
+				04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */,
+			);
+			path = OpenGLESTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +313,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/OpenGLESTypes\"",
 					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/Generics\"",
+					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/Generics\"",
+					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes\"",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -304,6 +339,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/OpenGLESTypes\"",
 					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/Generics\"",
+					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/Generics\"",
+					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes\"",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
