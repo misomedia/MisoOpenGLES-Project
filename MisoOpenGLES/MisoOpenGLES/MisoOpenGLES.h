@@ -7,3 +7,4 @@
 //
 
 #import <MisoOpenGLES/MisoOpenGLESObject.h>
+#import <MisoOpenGLES/OpenGLESBrush.h>

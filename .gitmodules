@@ -7,3 +7,6 @@
 [submodule "MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes"]
 	path = MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes
 	url = git@github.com:misomedia/OpenGLESTypes.git
+[submodule "MisoOpenGLES/MisoOpenGLES/OpenGLESBrush"]
+	path = MisoOpenGLES/MisoOpenGLES/OpenGLESBrush
+	url = git@github.com:misomedia/OpenGLESBrush.git

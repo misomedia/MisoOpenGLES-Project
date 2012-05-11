@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */ = {isa = PBXBuildFile; fileRef = 0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */; };
+		0407FB77155DCA1D00054F85 /* OpenGLESBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */; };
 		045F86981554B33900535395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F86971554B33900535395 /* Foundation.framework */; };
 		045F869E1554B33900535395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045F869C1554B33900535395 /* InfoPlist.strings */; };
 		045F86A71554B34500535395 /* MisoOpenGLES.h in Headers */ = {isa = PBXBuildFile; fileRef = 045F86A51554B34500535395 /* MisoOpenGLES.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESBrush.h; sourceTree = "<group>"; };
+		0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLESBrush.m; sourceTree = "<group>"; };
 		045F86941554B33900535395 /* MisoOpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MisoOpenGLES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		045F86971554B33900535395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		045F869B1554B33900535395 /* MisoOpenGLES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MisoOpenGLES-Info.plist"; sourceTree = "<group>"; };
@@ -45,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0407FB70155DCA1D00054F85 /* OpenGLESBrush */ = {
+			isa = PBXGroup;
+			children = (
+				0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */,
+				0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */,
+			);
+			name = OpenGLESBrush;
+			path = "../../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/OpenGLESBrush";
+			sourceTree = "<group>";
+		};
 		045F86851554B33900535395 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +89,7 @@
 			children = (
 				04CCE6D7155DC4CD00D61942 /* Static Frameworks */,
 				045F869A1554B33900535395 /* Supporting Files */,
+				0407FB70155DCA1D00054F85 /* OpenGLESBrush */,
 				045F86A51554B34500535395 /* MisoOpenGLES.h */,
 				045F86A61554B34500535395 /* MisoOpenGLES.m */,
 				046535E8155D989B00960762 /* MisoOpenGLESObject.h */,
@@ -128,6 +143,7 @@
 			files = (
 				046535EA155D989B00960762 /* MisoOpenGLESObject.h in Headers */,
 				045F86A71554B34500535395 /* MisoOpenGLES.h in Headers */,
+				0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +257,7 @@
 			files = (
 				045F86A81554B34500535395 /* MisoOpenGLES.m in Sources */,
 				046535EB155D989B00960762 /* MisoOpenGLESObject.m in Sources */,
+				0407FB77155DCA1D00054F85 /* OpenGLESBrush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
