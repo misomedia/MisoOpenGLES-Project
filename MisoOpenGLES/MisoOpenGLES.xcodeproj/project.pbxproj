@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */ = {isa = PBXBuildFile; fileRef = 0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */; };
+		0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */ = {isa = PBXBuildFile; fileRef = 0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0407FB77155DCA1D00054F85 /* OpenGLESBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */; };
 		045F86981554B33900535395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F86971554B33900535395 /* Foundation.framework */; };
 		045F869E1554B33900535395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045F869C1554B33900535395 /* InfoPlist.strings */; };
