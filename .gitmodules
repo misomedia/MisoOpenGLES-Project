@@ -1,9 +1,3 @@
-[submodule "MisoOpenGLES/MisoOpenGLES/Frameworks/OpenGLESTypes"]
-	path = MisoOpenGLES/MisoOpenGLES/Frameworks/OpenGLESTypes
-	url = git@github.com:misomedia/OpenGLESTypes.git
-[submodule "MisoOpenGLES/MisoOpenGLES/Frameworks/Generics"]
-	path = MisoOpenGLES/MisoOpenGLES/Frameworks/Generics
-	url = git@github.com:misomedia/Objective-C-Generics.git
 [submodule "MisoOpenGLES/Export"]
 	path = MisoOpenGLES/Export
 	url = git@github.com:misomedia/MisoOpenGLES.git
