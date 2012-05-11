@@ -6,4 +6,4 @@
 //  Copyright (c) 2012 Miso Media. All rights reserved.
 //
 
-#import <MisoOpenGLESObject.h>
+#import <MisoOpenGLES/MisoOpenGLESObject.h>
