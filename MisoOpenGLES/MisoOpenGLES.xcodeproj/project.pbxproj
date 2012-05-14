@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0409985315618C7100A16CD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409985215618C7100A16CD6 /* UIKit.framework */; };
+		0409985515618C7100A16CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409985415618C7100A16CD6 /* Foundation.framework */; };
+		0409985715618C7100A16CD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409985615618C7100A16CD6 /* CoreGraphics.framework */; };
+		0409985D15618C7100A16CD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0409985B15618C7100A16CD6 /* InfoPlist.strings */; };
+		0409985F15618C7100A16CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409985E15618C7100A16CD6 /* main.m */; };
+		0409986315618C7100A16CD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409986215618C7100A16CD6 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0409984E15618C7100A16CD6 /* MisoOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisoOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0409985215618C7100A16CD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0409985415618C7100A16CD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0409985615618C7100A16CD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0409985A15618C7100A16CD6 /* MisoOpenGLES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MisoOpenGLES-Info.plist"; sourceTree = "<group>"; };
+		0409985C15618C7100A16CD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0409985E15618C7100A16CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0409986015618C7100A16CD6 /* MisoOpenGLES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MisoOpenGLES-Prefix.pch"; sourceTree = "<group>"; };
+		0409986115618C7100A16CD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0409986215618C7100A16CD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0409984B15618C7100A16CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409985315618C7100A16CD6 /* UIKit.framework in Frameworks */,
+				0409985515618C7100A16CD6 /* Foundation.framework in Frameworks */,
+				0409985715618C7100A16CD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0409984315618C7100A16CD6 = {
+			isa = PBXGroup;
+			children = (
+				0409985815618C7100A16CD6 /* MisoOpenGLES */,
+				0409985115618C7100A16CD6 /* Frameworks */,
+				0409984F15618C7100A16CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0409984F15618C7100A16CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0409984E15618C7100A16CD6 /* MisoOpenGLES.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0409985115618C7100A16CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0409985215618C7100A16CD6 /* UIKit.framework */,
+				0409985415618C7100A16CD6 /* Foundation.framework */,
+				0409985615618C7100A16CD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0409985815618C7100A16CD6 /* MisoOpenGLES */ = {
+			isa = PBXGroup;
+			children = (
+				0409986115618C7100A16CD6 /* AppDelegate.h */,
+				0409986215618C7100A16CD6 /* AppDelegate.m */,
+				0409985915618C7100A16CD6 /* Supporting Files */,
+			);
+			path = MisoOpenGLES;
+			sourceTree = "<group>";
+		};
+		0409985915618C7100A16CD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0409985A15618C7100A16CD6 /* MisoOpenGLES-Info.plist */,
+				0409985B15618C7100A16CD6 /* InfoPlist.strings */,
+				0409985E15618C7100A16CD6 /* main.m */,
+				0409986015618C7100A16CD6 /* MisoOpenGLES-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0409984D15618C7100A16CD6 /* MisoOpenGLES Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0409986615618C7100A16CD6 /* Build configuration list for PBXNativeTarget "MisoOpenGLES Application" */;
+			buildPhases = (
+				0409984A15618C7100A16CD6 /* Sources */,
+				0409984B15618C7100A16CD6 /* Frameworks */,
+				0409984C15618C7100A16CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MisoOpenGLES Application";
+			productName = MisoOpenGLES;
+			productReference = 0409984E15618C7100A16CD6 /* MisoOpenGLES.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0409984515618C7100A16CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Miso Media";
+			};
+			buildConfigurationList = 0409984815618C7100A16CD6 /* Build configuration list for PBXProject "MisoOpenGLES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0409984315618C7100A16CD6;
+			productRefGroup = 0409984F15618C7100A16CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0409984D15618C7100A16CD6 /* MisoOpenGLES Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0409984C15618C7100A16CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409985D15618C7100A16CD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0409984A15618C7100A16CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409985F15618C7100A16CD6 /* main.m in Sources */,
+				0409986315618C7100A16CD6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0409985B15618C7100A16CD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0409985C15618C7100A16CD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0409986415618C7100A16CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0409986515618C7100A16CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0409986715618C7100A16CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MisoOpenGLES/MisoOpenGLES-Prefix.pch";
+				INFOPLIST_FILE = "MisoOpenGLES/MisoOpenGLES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0409986815618C7100A16CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MisoOpenGLES/MisoOpenGLES-Prefix.pch";
+				INFOPLIST_FILE = "MisoOpenGLES/MisoOpenGLES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0409984815618C7100A16CD6 /* Build configuration list for PBXProject "MisoOpenGLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0409986415618C7100A16CD6 /* Debug */,
+				0409986515618C7100A16CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0409986615618C7100A16CD6 /* Build configuration list for PBXNativeTarget "MisoOpenGLES Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0409986715618C7100A16CD6 /* Debug */,
+				0409986815618C7100A16CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0409984515618C7100A16CD6 /* Project object */;
+}
