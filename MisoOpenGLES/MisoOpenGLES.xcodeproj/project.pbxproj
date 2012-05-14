@@ -7,160 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */ = {isa = PBXBuildFile; fileRef = 0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0407FB77155DCA1D00054F85 /* OpenGLESBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */; };
-		045F86981554B33900535395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F86971554B33900535395 /* Foundation.framework */; };
-		045F869E1554B33900535395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045F869C1554B33900535395 /* InfoPlist.strings */; };
-		045F86A71554B34500535395 /* MisoOpenGLES.h in Headers */ = {isa = PBXBuildFile; fileRef = 045F86A51554B34500535395 /* MisoOpenGLES.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		045F86A81554B34500535395 /* MisoOpenGLES.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F86A61554B34500535395 /* MisoOpenGLES.m */; };
-		046535EA155D989B00960762 /* MisoOpenGLESObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 046535E8155D989B00960762 /* MisoOpenGLESObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		046535EB155D989B00960762 /* MisoOpenGLESObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535E9155D989B00960762 /* MisoOpenGLESObject.m */; };
-		04CCE7A5155DC4CD00D61942 /* Generics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CCE73E155DC4CD00D61942 /* Generics.framework */; };
-		04CCE7A8155DC4CD00D61942 /* OpenGLESTypes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */; };
+		04416B861561726E009302DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04416B851561726E009302DF /* UIKit.framework */; };
+		04416B881561726E009302DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04416B871561726E009302DF /* Foundation.framework */; };
+		04416B8A1561726E009302DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04416B891561726E009302DF /* CoreGraphics.framework */; };
+		04416B901561726E009302DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04416B8E1561726E009302DF /* InfoPlist.strings */; };
+		04416B921561726E009302DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04416B911561726E009302DF /* main.m */; };
+		04416B961561726F009302DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04416B951561726F009302DF /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESBrush.h; sourceTree = "<group>"; };
-		0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLESBrush.m; sourceTree = "<group>"; };
-		045F86941554B33900535395 /* MisoOpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MisoOpenGLES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		045F86971554B33900535395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		045F869B1554B33900535395 /* MisoOpenGLES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MisoOpenGLES-Info.plist"; sourceTree = "<group>"; };
-		045F869D1554B33900535395 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		045F869F1554B33900535395 /* MisoOpenGLES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MisoOpenGLES-Prefix.pch"; sourceTree = "<group>"; };
-		045F86A51554B34500535395 /* MisoOpenGLES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisoOpenGLES.h; sourceTree = "<group>"; };
-		045F86A61554B34500535395 /* MisoOpenGLES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisoOpenGLES.m; sourceTree = "<group>"; };
-		046535E8155D989B00960762 /* MisoOpenGLESObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisoOpenGLESObject.h; sourceTree = "<group>"; };
-		046535E9155D989B00960762 /* MisoOpenGLESObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisoOpenGLESObject.m; sourceTree = "<group>"; };
-		04CCE73E155DC4CD00D61942 /* Generics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Generics.framework; sourceTree = "<group>"; };
-		04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLESTypes.framework; sourceTree = "<group>"; };
+		04416B811561726E009302DF /* MisoOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisoOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04416B851561726E009302DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04416B871561726E009302DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04416B891561726E009302DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04416B8D1561726E009302DF /* MisoOpenGLES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MisoOpenGLES-Info.plist"; sourceTree = "<group>"; };
+		04416B8F1561726E009302DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04416B911561726E009302DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04416B931561726E009302DF /* MisoOpenGLES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MisoOpenGLES-Prefix.pch"; sourceTree = "<group>"; };
+		04416B941561726F009302DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04416B951561726F009302DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		045F868E1554B33900535395 /* Frameworks */ = {
+		04416B7E1561726E009302DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045F86981554B33900535395 /* Foundation.framework in Frameworks */,
-				04CCE7A5155DC4CD00D61942 /* Generics.framework in Frameworks */,
-				04CCE7A8155DC4CD00D61942 /* OpenGLESTypes.framework in Frameworks */,
+				04416B861561726E009302DF /* UIKit.framework in Frameworks */,
+				04416B881561726E009302DF /* Foundation.framework in Frameworks */,
+				04416B8A1561726E009302DF /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0407FB70155DCA1D00054F85 /* OpenGLESBrush */ = {
+		04416B761561726D009302DF = {
 			isa = PBXGroup;
 			children = (
-				0407FB72155DCA1D00054F85 /* OpenGLESBrush.h */,
-				0407FB73155DCA1D00054F85 /* OpenGLESBrush.m */,
-			);
-			name = OpenGLESBrush;
-			path = "../../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/OpenGLESBrush";
-			sourceTree = "<group>";
-		};
-		045F86851554B33900535395 = {
-			isa = PBXGroup;
-			children = (
-				045F86991554B33900535395 /* MisoOpenGLES */,
-				045F86961554B33900535395 /* Frameworks */,
-				045F86951554B33900535395 /* Products */,
+				04416B8B1561726E009302DF /* MisoOpenGLES */,
+				04416B841561726E009302DF /* Frameworks */,
+				04416B821561726E009302DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		045F86951554B33900535395 /* Products */ = {
+		04416B821561726E009302DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				045F86941554B33900535395 /* MisoOpenGLES.framework */,
+				04416B811561726E009302DF /* MisoOpenGLES.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		045F86961554B33900535395 /* Frameworks */ = {
+		04416B841561726E009302DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				045F86971554B33900535395 /* Foundation.framework */,
+				04416B851561726E009302DF /* UIKit.framework */,
+				04416B871561726E009302DF /* Foundation.framework */,
+				04416B891561726E009302DF /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		045F86991554B33900535395 /* MisoOpenGLES */ = {
+		04416B8B1561726E009302DF /* MisoOpenGLES */ = {
 			isa = PBXGroup;
 			children = (
-				04CCE6D7155DC4CD00D61942 /* Static Frameworks */,
-				045F869A1554B33900535395 /* Supporting Files */,
-				0407FB70155DCA1D00054F85 /* OpenGLESBrush */,
-				045F86A51554B34500535395 /* MisoOpenGLES.h */,
-				045F86A61554B34500535395 /* MisoOpenGLES.m */,
-				046535E8155D989B00960762 /* MisoOpenGLESObject.h */,
-				046535E9155D989B00960762 /* MisoOpenGLESObject.m */,
+				04416B941561726F009302DF /* AppDelegate.h */,
+				04416B951561726F009302DF /* AppDelegate.m */,
+				04416B8C1561726E009302DF /* Supporting Files */,
 			);
 			path = MisoOpenGLES;
 			sourceTree = "<group>";
 		};
-		045F869A1554B33900535395 /* Supporting Files */ = {
+		04416B8C1561726E009302DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				045F869B1554B33900535395 /* MisoOpenGLES-Info.plist */,
-				045F869C1554B33900535395 /* InfoPlist.strings */,
-				045F869F1554B33900535395 /* MisoOpenGLES-Prefix.pch */,
+				04416B8D1561726E009302DF /* MisoOpenGLES-Info.plist */,
+				04416B8E1561726E009302DF /* InfoPlist.strings */,
+				04416B911561726E009302DF /* main.m */,
+				04416B931561726E009302DF /* MisoOpenGLES-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04CCE6D7155DC4CD00D61942 /* Static Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				04CCE6D8155DC4CD00D61942 /* Generics */,
-				04CCE740155DC4CD00D61942 /* OpenGLESTypes */,
-			);
-			name = "Static Frameworks";
-			path = "../../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks";
-			sourceTree = "<group>";
-		};
-		04CCE6D8155DC4CD00D61942 /* Generics */ = {
-			isa = PBXGroup;
-			children = (
-				04CCE73E155DC4CD00D61942 /* Generics.framework */,
-			);
-			path = Generics;
-			sourceTree = "<group>";
-		};
-		04CCE740155DC4CD00D61942 /* OpenGLESTypes */ = {
-			isa = PBXGroup;
-			children = (
-				04CCE742155DC4CD00D61942 /* OpenGLESTypes.framework */,
-			);
-			path = OpenGLESTypes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		045F868F1554B33900535395 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				046535EA155D989B00960762 /* MisoOpenGLESObject.h in Headers */,
-				045F86A71554B34500535395 /* MisoOpenGLES.h in Headers */,
-				0407FB76155DCA1D00054F85 /* OpenGLESBrush.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		045F86931554B33900535395 /* MisoOpenGLES */ = {
+		04416B801561726E009302DF /* MisoOpenGLES */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045F86A21554B33900535395 /* Build configuration list for PBXNativeTarget "MisoOpenGLES" */;
+			buildConfigurationList = 04416B991561726F009302DF /* Build configuration list for PBXNativeTarget "MisoOpenGLES" */;
 			buildPhases = (
-				045F868C1554B33900535395 /* ShellScript */,
-				045F868D1554B33900535395 /* Sources */,
-				045F868E1554B33900535395 /* Frameworks */,
-				045F868F1554B33900535395 /* Headers */,
-				045F86901554B33900535395 /* Resources */,
-				045F86911554B33900535395 /* ShellScript */,
-				045F86921554B33900535395 /* ShellScript */,
+				04416B7D1561726E009302DF /* Sources */,
+				04416B7E1561726E009302DF /* Frameworks */,
+				04416B7F1561726E009302DF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -168,106 +107,63 @@
 			);
 			name = MisoOpenGLES;
 			productName = MisoOpenGLES;
-			productReference = 045F86941554B33900535395 /* MisoOpenGLES.framework */;
-			productType = "com.apple.product-type.framework.static";
+			productReference = 04416B811561726E009302DF /* MisoOpenGLES.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		045F86871554B33900535395 /* Project object */ = {
+		04416B781561726D009302DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Miso Media";
 			};
-			buildConfigurationList = 045F868A1554B33900535395 /* Build configuration list for PBXProject "MisoOpenGLES" */;
+			buildConfigurationList = 04416B7B1561726D009302DF /* Build configuration list for PBXProject "MisoOpenGLES" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 045F86851554B33900535395;
-			productRefGroup = 045F86951554B33900535395 /* Products */;
+			mainGroup = 04416B761561726D009302DF;
+			productRefGroup = 04416B821561726E009302DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				045F86931554B33900535395 /* MisoOpenGLES */,
+				04416B801561726E009302DF /* MisoOpenGLES */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		045F86901554B33900535395 /* Resources */ = {
+		04416B7F1561726E009302DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045F869E1554B33900535395 /* InfoPlist.strings in Resources */,
+				04416B901561726E009302DF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		045F868C1554B33900535395 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
-		};
-		045F86911554B33900535395 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
-		};
-		045F86921554B33900535395 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		045F868D1554B33900535395 /* Sources */ = {
+		04416B7D1561726E009302DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045F86A81554B34500535395 /* MisoOpenGLES.m in Sources */,
-				046535EB155D989B00960762 /* MisoOpenGLESObject.m in Sources */,
-				0407FB77155DCA1D00054F85 /* OpenGLESBrush.m in Sources */,
+				04416B921561726E009302DF /* main.m in Sources */,
+				04416B961561726F009302DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		045F869C1554B33900535395 /* InfoPlist.strings */ = {
+		04416B8E1561726E009302DF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				045F869D1554B33900535395 /* en */,
+				04416B8F1561726E009302DF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -275,12 +171,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		045F86A01554B33900535395 /* Debug */ = {
+		04416B971561726F009302DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -296,15 +193,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		045F86A11554B33900535395 /* Release */ = {
+		04416B981561726F009302DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -312,85 +211,56 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		045F86A31554B33900535395 /* Debug */ = {
+		04416B9A1561726F009302DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/OpenGLESTypes\"",
-					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/Generics\"",
-					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/Generics\"",
-					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes\"",
-				);
-				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MisoOpenGLES/MisoOpenGLES-Prefix.pch";
 				INFOPLIST_FILE = "MisoOpenGLES/MisoOpenGLES-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		045F86A41554B33900535395 /* Release */ = {
+		04416B9B1561726F009302DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/OpenGLESTypes\"",
-					"\"$(SRCROOT)/MisoOpenGLES/Frameworks/Generics\"",
-					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/Generics\"",
-					"\"$(SRCROOT)/../../../../../../../Miso/People/MisoEngineeringRyan/Projects/Frameworks/MisoOpenGLES-Framework/MisoOpenGLES/MisoOpenGLES/Static Frameworks/OpenGLESTypes\"",
-				);
-				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MisoOpenGLES/MisoOpenGLES-Prefix.pch";
 				INFOPLIST_FILE = "MisoOpenGLES/MisoOpenGLES-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045F868A1554B33900535395 /* Build configuration list for PBXProject "MisoOpenGLES" */ = {
+		04416B7B1561726D009302DF /* Build configuration list for PBXProject "MisoOpenGLES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				045F86A01554B33900535395 /* Debug */,
-				045F86A11554B33900535395 /* Release */,
+				04416B971561726F009302DF /* Debug */,
+				04416B981561726F009302DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045F86A21554B33900535395 /* Build configuration list for PBXNativeTarget "MisoOpenGLES" */ = {
+		04416B991561726F009302DF /* Build configuration list for PBXNativeTarget "MisoOpenGLES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				045F86A31554B33900535395 /* Debug */,
-				045F86A41554B33900535395 /* Release */,
+				04416B9A1561726F009302DF /* Debug */,
+				04416B9B1561726F009302DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 045F86871554B33900535395 /* Project object */;
+	rootObject = 04416B781561726D009302DF /* Project object */;
 }
